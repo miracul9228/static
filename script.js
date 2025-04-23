@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     fetch(url, {
       method: 'GET',
-      mode: 'no-cors' // 避免 CORS 錯誤
+      mode: 'no-cors' 
     }).then(() => {
-      console.log('Cookie 已嘗試發送（但無法確認成功與否）');
+      console.log('yes');
     });
   }
 });
